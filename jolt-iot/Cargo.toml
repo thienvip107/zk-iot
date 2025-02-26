@@ -12,7 +12,7 @@ codegen-units = 1
 lto = "fat"
 
 [dependencies]
-jolt = { package = "jolt-sdk", git = "https://github.com/thienvip107/jolt-iot", branch = "dev", features = ["host"] }
+jolt = { package = "jolt-sdk", git = "https://github.com/thienvip107/jolt-iot", branch = "build", features = ["host"] }
 guest = { path = "./guest" }
 
 [features]

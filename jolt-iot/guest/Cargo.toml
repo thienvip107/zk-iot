@@ -7,4 +7,4 @@ edition = "2021"
 guest = []
 
 [dependencies]
-jolt = { package = "jolt-sdk", git = "https://github.com/thienvip107/jolt-iot.git", branch = "dev" }
+jolt = { package = "jolt-sdk", git = "https://github.com/thienvip107/jolt-iot.git", branch = "build" }
